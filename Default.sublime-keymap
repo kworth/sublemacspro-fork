@@ -51,7 +51,7 @@
     //
     // Mark and point, kill region, kill line, yank and yank pop, deletion commands.
     //
-    {"keys": ["ctrl+space"], "command": "sbp_set_mark"},
+    // {"keys": ["ctrl+space"], "command": "sbp_set_mark"},
 
     {"keys": ["ctrl+g"], "command": "sbp_cancel_mark", "context": [ {"key": "sbp_has_visible_mark", "operand": true}]},
     {"keys": ["escape"], "command": "sbp_cancel_mark", "context": [ {"key": "sbp_has_visible_mark", "operand": true}]},
