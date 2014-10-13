@@ -139,12 +139,12 @@
     //////////////////
 
 
-    {"keys": ["tab"], "command": "sbp_tab_cmd",  "context": [
-        {"key": "panel_has_focus",  "operand": false },
-        {"key": "auto_complete_visible", "operand": false },
-        {"key": "has_next_field", "operand": false },
-        {"key": "overlay_visible", "operand": false }]
-    },
+    // {"keys": ["tab"], "command": "sbp_tab_cmd",  "context": [
+    //     {"key": "panel_has_focus",  "operand": false },
+    //     {"key": "auto_complete_visible", "operand": false },
+    //     {"key": "has_next_field", "operand": false },
+    //     {"key": "overlay_visible", "operand": false }]
+    // },
 
     /////////////////////////////
     // Begin emacs window cmds //
