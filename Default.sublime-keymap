@@ -5,7 +5,7 @@
     // Motion commands: forward/backward word, identifiers (sexpression), beginning/end of file/window
     //
     {"keys": ["alt+f"], "command": "sbp_move_word", "args": {"direction": 1}},
-    {"keys": ["ctrl+alt+f"], "command": "sbp_move_sexpr", "args": {"direction": 1}},
+    // {"keys": ["ctrl+alt+f"], "command": "sbp_move_sexpr", "args": {"direction": 1}},
     {"keys": ["alt+b"], "command": "sbp_move_word", "args": {"direction": -1}},
     {"keys": ["ctrl+alt+b"], "command": "sbp_move_sexpr", "args": {"direction": -1}},
     {"keys": ["alt+c"], "command": "sbp_case_word", "args": {"direction": 1, "mode": "title"}},
